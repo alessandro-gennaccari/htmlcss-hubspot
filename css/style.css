@@ -104,19 +104,30 @@ div.nav-top {
 /* nav bottom */
 div.nav-bottom {
   height: 80px;
+  line-height: 80px;
   background-color: #ffffff;
 }
 
 .nav-bottom .logo {
   width: 30%;
   height: 100%;
-  background-color: red;
+}
+
+.nav-bottom .logo img {
+  margin-top: 25px;
 }
 
 .nav-bottom .menu {
   width: 70%;
-  height: 100%;
-  background-color: yellow;
+  text-align: right;
+}
+
+.nav-bottom .menu ul li:not(.about) {
+  padding: 0 15px;
+}
+
+.nav-bottom .menu ul li a i {
+  padding-left: 10px;
 }
 
 /* jumbotron */
