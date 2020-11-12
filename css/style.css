@@ -47,11 +47,6 @@ body {
 
 
 /* HEADER */
-header {
-  height: 855px;
-  background-color: red;
-}
-
 header ul {
   list-style: none;
 }
@@ -65,7 +60,7 @@ header ul li a {
   color: #33475b;
 }
 
-
+/* nav top */
 div.nav-top {
   height: 80px;
   line-height: 80px;
@@ -73,6 +68,7 @@ div.nav-top {
   border-bottom: 1px solid #32495b;
 }
 
+/* nav top left */
 .nav-top-left {
   width: 50%;
   text-align: left;
@@ -87,6 +83,7 @@ div.nav-top {
   padding: 0 15px;
 }
 
+/* nav top right */
 .nav-top-right {
   width: 50%;
   text-align: right;
@@ -104,10 +101,31 @@ div.nav-top {
   color: #fe7c60;
 }
 
+/* nav bottom */
 div.nav-bottom {
   height: 80px;
   background-color: #ffffff;
 }
+
+.nav-bottom .logo {
+  width: 30%;
+  height: 100%;
+  background-color: red;
+}
+
+.nav-bottom .menu {
+  width: 70%;
+  height: 100%;
+  background-color: yellow;
+}
+
+/* jumbotron */
+.jumbotron {
+  height: 695px;
+  width: 100%;
+  background-color: #fff4ef;
+}
+
 
 /* MAIN */
 main {
