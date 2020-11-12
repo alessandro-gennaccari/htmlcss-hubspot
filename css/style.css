@@ -135,6 +135,10 @@ div.nav-bottom {
   height: 695px;
   width: 100%;
   background-color: #fff4ef;
+  box-shadow: 0px 0px 5px rgba(51,71,91,0.12);
+  background-image: url('../img/jumbotron.png');
+  background-position: right bottom;
+  background-repeat: no-repeat;
 }
 
 
