@@ -6,6 +6,43 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
+  color: #33475b;
+  font-size: 16px;
+}
+
+.container {
+  width: 70%;
+  margin: auto;
+  height: 100%;
+  /* background-color: green; */
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.btn {
+  border-radius: 6px;
+  padding: 10px 10px;
+}
+
+.btn-login {
+  border: 1px solid #fe775a;
+}
+
+.btn-orange {
+  background-color: #fe775a;
+  color: white;
 }
 
 
@@ -13,6 +50,63 @@ body {
 header {
   height: 855px;
   background-color: red;
+}
+
+header ul {
+  list-style: none;
+}
+
+header ul li {
+  display: inline-block;
+}
+
+header ul li a {
+  text-decoration: none;
+  color: #33475b;
+}
+
+
+div.nav-top {
+  height: 80px;
+  line-height: 80px;
+  background-color: #f4f9fd;
+  border-bottom: 1px solid #32495b;
+}
+
+.nav-top-left {
+  width: 50%;
+  text-align: left;
+}
+
+.nav-top-left ul li a.language {
+  padding-right: 15px;
+  border-right: 1px solid #33475b;
+}
+
+.nav-top-left ul li a.contact {
+  padding: 0 15px;
+}
+
+.nav-top-right {
+  width: 50%;
+  text-align: right;
+}
+
+.nav-top-right ul li:nth-child(2) {
+  padding: 0 20px;
+}
+
+.nav-top-right ul li a.search-icon {
+  color: #00a4bd;
+}
+
+.nav-top-right ul li a.login {
+  color: #fe7c60;
+}
+
+div.nav-bottom {
+  height: 80px;
+  background-color: #ffffff;
 }
 
 /* MAIN */
