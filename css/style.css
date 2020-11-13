@@ -52,6 +52,10 @@ body {
 
 
 /* HEADER */
+header{
+  display: unset;
+}
+
 header ul {
   list-style: none;
 }
@@ -84,8 +88,16 @@ div.nav-top {
   border-right: 1px solid #33475b;
 }
 
+.nav-top-left ul li a.language:hover {
+  text-decoration: underline;
+}
+
 .nav-top-left ul li a.contact {
   padding: 0 15px;
+}
+
+.nav-top-left ul li a.contact:hover {
+  text-decoration: underline;
 }
 
 /* nav top right */
@@ -115,7 +127,6 @@ div.nav-bottom {
   position: sticky;
   top: 0;
   z-index: 999;
-  width: 100%;
   height: 80px;
   line-height: 80px;
   background-color: #ffffff;
@@ -196,7 +207,7 @@ div.nav-bottom {
 
 /* MAIN */
 main {
-  height: 500px;
+  height: 1000px;
   background-color: #f4f9fd;
 }
 
