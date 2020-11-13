@@ -429,8 +429,10 @@ section.community .learn-grow p {
   padding: 30px 100px;
 }
 
-.row-logo-one img {
-  width: 25%;
+.row-logo img {
+  padding: 20px;
+  max-width: 18%;
+  vertical-align: middle;
 }
 
 
