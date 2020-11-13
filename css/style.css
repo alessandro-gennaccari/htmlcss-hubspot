@@ -10,6 +10,14 @@ body {
   font-size: 16px;
 }
 
+h2 {
+  font-size: 190%;
+}
+
+h3 {
+  font-size: 160%;
+}
+
 .container {
   width: 70%;
   margin: auto;
@@ -46,7 +54,15 @@ body {
 }
 
 .btn-big {
-  padding: 23px 23px;
+  padding: 20px 30px;
+}
+
+.col-30 {
+  width: 30%;
+}
+
+.col-70 {
+  width: 70%;
 }
 
 
@@ -211,9 +227,10 @@ main {
   background-color: #f4f9fd;
 }
 
+/* Section1 */
 .powerful-row {
   margin: auto;
-  width: 75%;
+  width: 70%;
   padding: 50px;
   text-align: center;
 }
@@ -222,16 +239,73 @@ main {
   max-width: 300px;
 }
 
-.powerful-row h2 {
-  font-size: 190%;
-  padding-bottom: 30px;
-}
-
 .powerful-row p {
-
+  padding-top: 30px;
   font-family: sans-serif;
   line-height: 30px
 }
+
+/* Section2 */
+.white-box {
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.2);
+  padding: 5%;
+
+}
+div.white-box .col-30 {
+  text-align: center;
+}
+
+div.white-box .col-30 img {
+  max-width: 150px;
+}
+
+div.white-box .col-30 .button-learn {
+  padding-top: 40px;
+}
+
+div.white-box .col-70 .crm {
+  width: 80%;
+}
+
+div.white-box .col-70 p {
+  padding-top: 40px;
+  padding-bottom: 20px;
+  font-family: sans-serif;
+  line-height: 30px;
+}
+
+div.white-box .col-70 h4{
+  text-transform: uppercase;
+}
+
+div.white-box .col-70 h4::after {
+  height: 2px;
+  content: '';
+  display: inline-block;
+  background-color: gray;
+  width: 60%;
+  vertical-align: middle;
+  margin-left: 100px;
+}
+
+div.white-box .col-70 ul {
+  list-style: none;
+  padding-top: 20px;
+  font-family: sans-serif;
+}
+
+div.white-box .col-70 ul li {
+  display: inline-block;
+  padding: 0 20px 0 0;
+}
+
+div.white-box .col-70 ul li i {
+  color: #fe775a;
+}
+
+
 
 /* FOOTER */
 footer {
