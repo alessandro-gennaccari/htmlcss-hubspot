@@ -14,7 +14,6 @@ body {
   width: 70%;
   margin: auto;
   height: 100%;
-  /* background-color: green; */
 }
 
 .float-left {
@@ -33,7 +32,7 @@ body {
 
 .btn {
   border-radius: 5px;
-  padding: 10px 10px;
+  padding: 8px 10px;
   text-decoration: none;
 }
 
@@ -110,12 +109,8 @@ div.nav-top {
   padding: 0 20px;
 }
 
-.nav-top-right ul li.search-icon {
+.nav-top-right ul li a.search-icon {
   color: #00a4bd;
-}
-
-.nav-top-right ul li.search-icon i:hover {
-  cursor: pointer;
 }
 
 .nav-top-right ul li a.login {
@@ -124,13 +119,14 @@ div.nav-top {
 
 /* nav bottom */
 div.nav-bottom {
+  position: -webkit-sticky; /*Safari*/
   position: sticky;
   top: 0;
   z-index: 999;
   height: 80px;
   line-height: 80px;
   background-color: #ffffff;
-  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
 }
 
 .nav-bottom .logo {
@@ -139,7 +135,7 @@ div.nav-bottom {
 }
 
 .nav-bottom .logo img {
-  margin-top: 25px;
+  vertical-align: middle;
 }
 
 .nav-bottom .menu {
@@ -147,8 +143,12 @@ div.nav-bottom {
   text-align: right;
 }
 
+.nav-bottom .menu ul li {
+  padding-left: 15px;
+}
+
 .nav-bottom .menu ul li:not(.about) {
-  padding: 0 15px;
+  padding-right: 15px;
 }
 
 .nav-bottom .menu ul li a i {
@@ -196,12 +196,12 @@ div.nav-bottom {
 }
 
 .jumbotron .homepage-title .get-start {
-  margin: 60px 0 ;
+  padding: 60px 0 ;
   width: 50%;
 }
 
 .jumbotron .homepage-title .get-start p {
-  margin: 60px 0;
+  padding: 60px 0;
   font-size: 13px;
 }
 
@@ -209,6 +209,28 @@ div.nav-bottom {
 main {
   height: 1000px;
   background-color: #f4f9fd;
+}
+
+.powerful-row {
+  margin: auto;
+  width: 75%;
+  padding: 50px;
+  text-align: center;
+}
+
+.powerful-row img {
+  max-width: 300px;
+}
+
+.powerful-row h2 {
+  font-size: 190%;
+  padding-bottom: 30px;
+}
+
+.powerful-row p {
+
+  font-family: sans-serif;
+  line-height: 30px
 }
 
 /* FOOTER */
