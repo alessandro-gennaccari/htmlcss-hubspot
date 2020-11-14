@@ -480,6 +480,11 @@ footer ul li a{
   font-size: 14px;
 }
 
+footer a:hover {
+  color: #7fd1de;
+  text-decoration: underline;
+}
+
 /* top footer */
 .top-footer {
   margin-bottom: 50px;
