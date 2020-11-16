@@ -562,3 +562,38 @@ ul.list-icon li {
   font-size: 15px;
   padding-left: 20px;
 }
+
+/* WIDGET */
+.widget {
+  position: fixed;
+  bottom: 2%;
+  right: 1%;
+  z-index: 99;
+}
+
+.widget .help-message {
+  height: 200px;
+  background-color: white;
+}
+
+
+.circle-chat:hover {
+  cursor: pointer;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.4);
+}
+
+.circle-chat {
+  height: 53px;
+  width: 53px;
+  background-color: #425b76;
+  text-align: center;
+  border-radius: 50%;
+  line-height: 53px;
+  box-shadow: 1px 2px 20px rgba(0, 0, 0, 0.2);
+}
+
+.circle-chat i {
+  font-size: 25px;
+  color: white;
+  vertical-align: middle;
+}
