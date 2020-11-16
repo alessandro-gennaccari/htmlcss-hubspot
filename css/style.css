@@ -572,7 +572,6 @@ ul.list-icon li {
   z-index: 99;
 }
 
-
 .position {
   position: relative;
 }
@@ -602,7 +601,7 @@ ul.list-icon li {
 }
 
 .open-chat {
-  margin-top: 80px;
+  margin-top: 70px;
 }
 
 .open-chat .circle-chat {
