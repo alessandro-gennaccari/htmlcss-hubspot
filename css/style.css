@@ -581,23 +581,28 @@ ul.list-icon li {
   z-index: 1;
   position: relative;
   left: 50%;
-  top: 35px;
+  top: 30px;
   transform: translateX(-50%);
 }
 
 .help-message .message {
   font-size: 14px;
   background-color: white;
-  padding: 30px 20px 15px;
+  padding: 25px 20px 15px;
   border-radius: 5px;
   box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.2);
 }
+
 
 .message i {
   position: absolute;
   top: 10px;
   right: 10px;
   font-size: 20px;
+}
+
+.message i:hover{
+  color: red;
 }
 
 .open-chat {
