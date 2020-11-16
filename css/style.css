@@ -565,24 +565,50 @@ ul.list-icon li {
 
 /* WIDGET */
 .widget {
+  width: 13%;
   position: fixed;
   bottom: 2%;
   right: 1%;
   z-index: 99;
 }
 
-.widget .help-message {
-  height: 200px;
+
+.position {
+  position: relative;
+}
+
+.help-message .bot-avatar img {
+  width: 25%;
+  z-index: 1;
+  position: relative;
+  left: 50%;
+  top: 35px;
+  transform: translateX(-50%);
+}
+
+.help-message .message {
+  font-size: 14px;
   background-color: white;
+  padding: 30px 20px 15px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.2);
 }
 
-
-.circle-chat:hover {
-  cursor: pointer;
-  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.4);
+.message i {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
 }
 
-.circle-chat {
+.open-chat {
+  margin-top: 80px;
+}
+
+.open-chat .circle-chat {
+  position: absolute;
+  bottom: 0;
+  right: 0;
   height: 53px;
   width: 53px;
   background-color: #425b76;
@@ -592,8 +618,13 @@ ul.list-icon li {
   box-shadow: 1px 2px 20px rgba(0, 0, 0, 0.2);
 }
 
-.circle-chat i {
-  font-size: 25px;
+.circle-chat:hover {
+  cursor: pointer;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.4);
+}
+
+.open-chat .circle-chat i {
+  font-size: 23px;
   color: white;
   vertical-align: middle;
 }
